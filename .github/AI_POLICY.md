@@ -21,11 +21,7 @@ requests the same way anyone else does.
 Those PRs are held to this policy, not exempted from it. A named human
 maintainer is accountable for every agent-authored PR merged here: they are
 responsible for the diff, they answer questions about it, and "the agent wrote
-it" is not an explanation. If we could not accept that answer from you, we
-should not accept it from ourselves.
-
-We say this explicitly because a policy that governs only outside contributors
-is not a standard, it is a toll gate.
+it" is not an explanation.
 
 ## Code: ownership and licensing
 
@@ -100,18 +96,6 @@ held against you; it helps a reviewer calibrate where to look.
 
 If you want to share raw AI output in a comment, put it in a quote block, say
 what it is, and add your own commentary on why it is relevant. Keep it short.
-
-### A note on our issues
-
-Many issues in this repository — particularly those labeled
-`good first issue` — are written in unusual detail, with file and line
-references and a suggested approach. That is deliberate: it lowers the barrier
-for a genuine first contribution.
-
-It also makes those issues easy to hand to an agent without ever reading the
-surrounding code. Please read the code. The suggested approach in an issue is a
-starting point written by someone who may have been wrong, and noticing that it
-is wrong is a more valuable contribution than implementing it faithfully.
 
 ## Reviews
 

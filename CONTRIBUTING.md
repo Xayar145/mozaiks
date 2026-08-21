@@ -52,24 +52,21 @@ Most of these need no MongoDB, Node.js, or LLM API key — see
 assign it to you.** GitHub does not let contributors self-assign, so the
 assignment has to come from our side; it is usually quick.
 
-This matters more than it looks. Two people have already built the same fix
-half an hour apart because nothing here said to claim first, and one of them
-lost the work. That was our fault, not theirs, and this section exists so it
-does not happen again. An issue with an assignee is taken; an issue without one
-is free.
+An issue with an assignee is taken. An issue without one is free. Claiming
+first is what stops two people building the same fix in parallel.
 
 If an issue is assigned but has gone quiet for a couple of weeks, comment and
-ask — people's circumstances change and we would rather hand it on than let it
-sit.
+ask. Circumstances change, and we would rather hand it on than leave it
+sitting.
 
-### A note on the suggested approach
+### The suggested approach is a starting point
 
-Many issues here include a suggested fix. That is a starting point written by
-someone who may have been wrong, not a specification. Read the surrounding code
-first, and if the suggestion looks wrong, **say so on the issue** — noticing
-that is worth more to us than implementing it faithfully.
+Many issues include a suggested fix. Treat it as a starting point, not a
+specification. Read the surrounding code first, and if the suggestion looks
+wrong, say so on the issue — that is more useful than implementing it as
+written.
 
-There is no bounty program; see [Bounties](#bounties).
+There is no bounty program. See [Bounties](#bounties).
 
 ## What You Can Contribute Without Extra Setup
 
