@@ -33,9 +33,9 @@ def test_current_config_prints_app_preset_and_resolved_features(
     assert "App Name:      Atlas" in output
     assert "Preset:        chat" in output
     assert "Auth Required: False" in output
-    assert "ºw^~)Þw ai_runtime" in output
-    assert "ºw^~)Þw chat_ui" in output
-    assert "ºw^~)Þw admin" in output
+    assert "\u2713 ai_runtime" in output
+    assert "\u2713 chat_ui" in output
+    assert "\u2717 admin" in output
 
 
 def test_feature_overrides_win_over_preset_defaults(monkeypatch, tmp_path, capsys) -> None:
@@ -52,8 +52,8 @@ def test_feature_overrides_win_over_preset_defaults(monkeypatch, tmp_path, capsy
     info_command.run(Namespace(available=False))
 
     output = capsys.readouterr().out
-    assert "ºw^~)Þw ai_runtime" in output
-    assert "ºw^~)Þw admin" in output
+    assert "\u2717 ai_runtime" in output
+    assert "\u2713 admin" in output
 
 
 def test_missing_app_json_prints_init_hint(monkeypatch, tmp_path, capsys) -> None:
