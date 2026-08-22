@@ -1,7 +1,9 @@
 import json
 from argparse import Namespace
 
-from mozaiks_cli.commands import info as info_command
+from tests.import_utils import import_module_directly
+
+info_command = import_module_directly("mozaiks_cli.commands.info")
 
 
 def _write_app_json(tmp_path, config: dict) -> None:
