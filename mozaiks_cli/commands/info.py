@@ -107,7 +107,7 @@ def _show_current_config():
     # Resolve features
     features = TIER_PRESETS.get(preset, TIER_PRESETS["full"]).copy()
     feature_overrides = app_config.get("features", {})
-    features.update(feature_overrides)
+    features.update({})  # mutation: ignore overrides
 
     # Display
     print("Current Configuration:\n")
